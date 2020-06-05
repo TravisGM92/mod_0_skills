@@ -1,0 +1,23 @@
+class: Server
+
+Attributes:
+1. name (string)
+2. length_of_employment (integer)
+3. preferred_shift (string)
+4. currently_working (boolean)
+5. strengths (array)
+
+Methods:
+1. greeting (takes the server's name
+and puts it into a sentence like "Hello
+there, I'm (name) and I'll be your server")
+2. work (changes the 'currently_working'
+attribute to 'true'.)
+3. clock_out (changes the 'currently_working'
+attribute to 'false' and puts "You have clocked
+out at (current time).").
+4. work_preference (takes the 'preferred_shift'
+string variable and puts it into a sentence
+like "I'd prefer to be working (preferred_shift).")
+5. list_strengths (lists the strengths array for
+that specific server.)
