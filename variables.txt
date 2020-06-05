@@ -1,0 +1,10 @@
+1. food = "brownie"
+2. is_delicious = true
+3. food = "ice cream"
+4. num2 = 10
+5. num7 = 50
+6. quotient = num7 / num2
+7. songs = ["Blue on Black", "What it's Like",
+"Circle of Life"]
+8-9. songs.shift
+10. songs.length
