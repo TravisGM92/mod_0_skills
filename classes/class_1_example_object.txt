@@ -1,0 +1,25 @@
+Instance of class Server: Sarah
+
+Attribute values:
+1. name: "Sarah"
+2. length_of_employment: 5
+3. preferred_shift: morning
+4. currently_working: false
+5. strengths ["experienced",
+"reliable", "older"]
+
+Methods being called:
+1. def greeting(name)
+"Hello there, I'm Sarah and I'll
+be your server"
+2. def work
+  @currently_working = true
+3. def clock_out
+  @currently_working = false
+  "You have clocked out at
+  (current time)."
+4. def work_preference
+"I'd prefer to be working (preferred_shift)."
+5. def list_strengths
+prints ["experienced", "reliable",
+"older"]
