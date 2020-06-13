@@ -9,7 +9,7 @@ Attribute values:
 "reliable", "older"]
 
 Methods being called:
-1. def greeting(name)
+1. def print_server_greeting(name)
 "Hello there, I'm Sarah and I'll
 be your server"
 2. def work
