@@ -8,7 +8,7 @@ Attributes:
 5. strengths (array)
 
 Methods:
-1. greeting (takes the server's name
+1. print_server_greeting (takes the server's name
 and puts it into a sentence like "Hello
 there, I'm (name) and I'll be your server")
 2. work (changes the 'currently_working'
