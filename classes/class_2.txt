@@ -3,23 +3,23 @@ class: Customer
 Attributes:
 1. location (string)
 2. time_waiting_before_ordering (integer)
-3. size_of_party (number and string)
+3. size_of_party (number)
 4. kids (boolean)
 5. bill (integer)
 6. paid? (boolean)
 
 Methods:
-1. pay bill (takes the 'paid?'
+1. pay_bill (takes the 'paid?'
 boolean and changes it to true,
 also changes 'bill' integer
 and changes it to '0'.)
-2. where (lists the customer's
+2. define_location (lists the customer's
 current location in restaurant using
 the 'location' string)
-3. greeting(size) (takes the
+3. print_greeting_with_party_size(size) (takes the
 size_of_party string 'Hello, we are
 (number of people in party).')
-4. kids_present(number) (takes the 'kids'
+4. declare_kids_present(number) (takes the 'kids'
 boolean and changes it to 'true',
-then declares "We've also got (number
+then prints "We've also got (number
 of kids) kids.")
