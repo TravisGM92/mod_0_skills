@@ -7,4 +7,4 @@
 7. songs = ["Blue on Black", "What it's Like",
 "Circle of Life"]
 8-9. songs.shift
-10. food.length
+10. p food.length
