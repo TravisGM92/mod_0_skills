@@ -1,18 +1,29 @@
 class Customer, instance: Bill
 
 Attribute values:
+
 1. location: corner table
+
 2. time_waiting_before_ordering: 05
+
 3. size_of_party: "Hello, we are 4"
+
 4. kids: true
+
 5. bill: 55
+
 6. paid? false
 
+
 Methods:
-1. def pay bill: paid? = true
+
+1. def pay_bill: paid? = true
 bill = 0
-2. def where: "You are sitting
+
+2. def define_location: "You are sitting
 at the corner table."
-3. greeting(4): "Hello, we are 4"
-4. kids_present(1): kids = true
+
+3. print_greeting_with_party_size(4): "Hello, we are 4"
+
+4. declare_kids_present(1): kids = true
 "We've also got 1 kids."
