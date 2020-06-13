@@ -6,7 +6,7 @@ Attribute values:
 
 2. time_waiting_before_ordering: 05
 
-3. size_of_party: "Hello, we are 4"
+3. size_of_party: 4
 
 4. kids: true
 
